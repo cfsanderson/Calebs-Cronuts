@@ -19,24 +19,56 @@ html {
 body {
   @include font-smoothing(on);
   margin: 0;
-  max-height: 100%;
   font-size: $base-text-size;
   font-family: $font-raleway, sans-serif;
   color: $color-main-font;
   background-color: $color-mint-green;
 }
 
-main {
-  max-height: 100%;
+body,
+#root,
+.layout {
+  min-height: 100vh;
 }
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  max-height: 760px;
+  margin: 1em auto;
+  padding: 1em;
+  flex: 1;
+}
+
+nav ul {
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+
+  li {
+    margin: 1em;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
 
 // Footer
 
 footer {
   background-color: $color-rose;
   text-align: center;
+  color: #fff;
 
   ul {
+    padding-left: 0;
     display: flex;
     list-style-type: none;
     margin: 10px 0;

@@ -1,0 +1,139 @@
+{
+  "categories": [
+    {
+      "name": "Coffee",
+      "items": [
+        {
+          "name": "Black - Hot or Iced",
+          "description": "16 ounces of locally roasted, freshed brewed coffee served either piping hot or over ice.",
+          "price": 200,
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/275px-A_small_cup_of_coffee.JPG"
+        },
+        {
+          "name": "House - Hot or Iced",
+          "description": "16 ounces of locally roasted, fresh brewed coffee served either piping hot or over ice with our blend or cream and sugar.",
+          "price": 265,
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/275px-A_small_cup_of_coffee.JPG"
+        },
+        {
+          "name": "Latte",
+          "description": "16 ounces of steamed milk and espresso (double shot).",
+          "price": 425,
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/275px-A_small_cup_of_coffee.JPG"
+        },
+        {
+          "name": "Cappuccino",
+          "description": "16 ounces of extra foamy steamed milk and espresso (double shot)",
+          "price": 425,
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/275px-A_small_cup_of_coffee.JPG"
+        },
+        {
+          "name": "Americano",
+          "description": "A double shot of espresso and hot water (16 oz.).",
+          "price": 275,
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/275px-A_small_cup_of_coffee.JPG"
+        },
+        {
+          "name": "Espresso (Double Shot)",
+          "description": "Just the essentials - 2 shots of our craft brewed espresso served hot.",
+          "price": 200,
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/275px-A_small_cup_of_coffee.JPG"
+        }
+      ]
+    },
+    {
+      "name": "Donuts",
+      "items": [
+        {
+          "name": "Chocolate",
+          "description": "A vanilla cake donut with chocolate icing.",
+          "price": 135,
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/275px-A_small_cup_of_coffee.JPG"
+        },
+        {
+          "name": "Chocolate Chocolate",
+          "description": "A chocolate cake donut with chocolate icing.",
+          "price": 135,
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/275px-A_small_cup_of_coffee.JPG"
+        },
+        {
+          "name": "Chocolate Chocolate Chocolate",
+          "description": "A chocolate cake donut with chocolate icing AND chocolate fudge shavings sprinkled on top.",
+          "price": 135,
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/275px-A_small_cup_of_coffee.JPG"
+        },
+        {
+          "name": "Caramel",
+          "description": "A vanilla cake donut with carmel icing.",
+          "price": 135,
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/275px-A_small_cup_of_coffee.JPG"
+        },
+        {
+          "name": "Maple",
+          "description": "A vanilla cake donut with maple icing.",
+          "price": 135,
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/275px-A_small_cup_of_coffee.JPG"
+        },
+        {
+          "name": "Vanilla",
+          "description": "A vanilla cake donut with vanilla icing.",
+          "price": 135,
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/275px-A_small_cup_of_coffee.JPG"
+        },
+        {
+          "name": "Glaze",
+          "description": "A vanilla cake glazed donut.",
+          "price": 135,
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/275px-A_small_cup_of_coffee.JPG"
+        }
+      ]
+    },
+    {
+      "name": "Specials",
+      "items": [
+        {
+          "name": "Chocolate",
+          "description": "A vanilla cake donut with chocolate icing.",
+          "price": 135,
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/275px-A_small_cup_of_coffee.JPG"
+        },
+        {
+          "name": "Chocolate Chocolate",
+          "description": "A chocolate cake donut with chocolate icing.",
+          "price": 135,
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/275px-A_small_cup_of_coffee.JPG"
+        },
+        {
+          "name": "Chocolate Chocolate Chocolate",
+          "description": "A chocolate cake donut with chocolate icing AND chocolate fudge shavings sprinkled on top.",
+          "price": 135,
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/275px-A_small_cup_of_coffee.JPG"
+        },
+        {
+          "name": "Caramel",
+          "description": "A vanilla cake donut with carmel icing.",
+          "price": 135,
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/275px-A_small_cup_of_coffee.JPG"
+        },
+        {
+          "name": "Maple",
+          "description": "A vanilla cake donut with maple icing.",
+          "price": 135,
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/275px-A_small_cup_of_coffee.JPG"
+        },
+        {
+          "name": "Vanilla",
+          "description": "A vanilla cake donut with vanilla icing.",
+          "price": 135,
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/275px-A_small_cup_of_coffee.JPG"
+        },
+        {
+          "name": "Glaze",
+          "description": "A vanilla cake glazed donut.",
+          "price": 135,
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/275px-A_small_cup_of_coffee.JPG"
+        }
+      ]
+    }
+  ]
+}

@@ -9,7 +9,7 @@ class Layout extends Component {
 
   render () {
     return (
-      <div>
+      <div className='layout'>
         <h3>Fresh Donuts</h3>
         <h1>Made-To-Order Donuts</h1>
         <h3>Your Way</h3>
