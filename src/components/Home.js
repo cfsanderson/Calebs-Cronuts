@@ -5,8 +5,7 @@ class Home extends Component {
   render () {
     return (
       <div>
-        <h2>A little bit about the restaurant</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Welcome to The Donut Experiment®, where every donut is your creation! We start with a delicious, fresh-made cake donut and then you pick from our huge selection of icings and toppings. Yours can be as simple as plain or glazed or as crazy as key lime, maple bacon or Sriracha. Stop by today and begin your own experiment.</p>
       </div>
     )
   }

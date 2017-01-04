@@ -10,7 +10,9 @@ class Layout extends Component {
   render () {
     return (
       <div>
-        <h1>The Donut Experiment</h1>
+        <h3>Fresh Donuts</h3>
+        <h1>Made-To-Order Donuts</h1>
+        <h3>Your Way</h3>
         <nav>
           <ul>
             <li>
@@ -31,7 +33,19 @@ class Layout extends Component {
           {this.props.children}
         </main>
         <footer>
-          <p>&copy; 2017 The Majestic That. Built with &hearts; at The Iron Yard, in St. Petersburg, FL.</p>
+          <h2>As seen in</h2>
+          <div className='footer-logos'>
+            <ul>
+              <li><img src='./src/images/logo-sainsbury-magazine.png' /></li>
+              <li><img src='./src/images/logo-sarasota-mag.png' /></li>
+              <li><img src='./src/images/logo-sunday-post.png' /></li>
+              <li><img src='./src/images/logo-tampa-bay-times.png' /></li>
+              <li><img src='./src/images/logo-toronto-star.png' /></li>
+              <li><img src='./src/images/logo-visit-florida.png' /></li>
+              <li><img src='./src/images/logo-wall-street-journal.png' /></li>
+            </ul>
+          </div>
+          <p>&copy; 2017 The Donut Experiment. Built with &hearts; at The Iron Yard, in St. Petersburg, FL.</p>
         </footer>
       </div>
     )

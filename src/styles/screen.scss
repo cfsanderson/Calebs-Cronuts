@@ -1,22 +1,49 @@
 @import 'utility';
 
 $base-text-size: 16px;
-$raleway: 'Raleway', sans-serif;
-$montserrat: 'Montserrat', sans-serif;
-$architects-daughter: 'Architects Daughter', cursive;
-$mint-green: hsl(143, 36%, 75%);
-$ochre: hsl(35, 77%, 62%);
-$beige: hsl(42, 36%, 91%);
-$rose: hsl(0, 82%, 65%);
+$font-raleway: 'Raleway', sans-serif;
+$font-montserrat: 'Montserrat', sans-serif;
+$font-architects-daughter: 'Architects Daughter', cursive;
+$font-flavors: 'Flavors', cursive;
+$color-mint-green: hsla(143, 36%, 75%, 1);
+$color-ochre: hsla(35, 77%, 62%, 1);
+$color-beige: hsla(42, 36%, 91%, 1);
+$color-rose: hsla(0, 82%, 65%, 1);
+$color-main-font: hsla(32, 69%, 10%, 1);
 
 html {
+  height: 100%;
   text-size-adjust: 100%;
 }
 
 body {
   @include font-smoothing(on);
   margin: 0;
+  max-height: 100%;
   font-size: $base-text-size;
-  font-family: sans-serif;
-  color: $mint-green;
+  font-family: $font-raleway, sans-serif;
+  color: $color-main-font;
+  background-color: $color-mint-green;
+}
+
+main {
+  max-height: 100%;
+}
+
+// Footer
+
+footer {
+  background-color: $color-rose;
+  text-align: center;
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    margin: 10px 0;
+
+    li {
+      display: inline-block;
+      max-height: 200px;
+    }
+  }
 }
