@@ -1,15 +1,17 @@
 import React, { Component } from 'react'
 import MenuItem from './MenuItem'
+import data from '../data.json'
 
 class MenuSection extends Component {
 
   static propTypes = {
-    name: React.PropTypes.string.isRequired,
-    items: React.PropTypes.array.isRequired
+    params: React.PropTypes.object.isRequired,
+    name: React.PropTypes.string.isRequired  /* missing from Jason's code */
   }
 
   render () {
-    const items = this.props.items.map((item, i) => {
+    const category = data.menu.find(c => c.slug === this.props.params.slug)
+    const items = category.items.map((item, i) => {
       return <MenuItem name={item.name} description={item.description} price={item.price} key={i} />
     })
 

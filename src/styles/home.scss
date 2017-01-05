@@ -1,0 +1,18 @@
+.home {
+  padding: 20px;
+  margin: auto;
+
+  .cronut01-image {
+    float: left;
+    padding: 15px;
+    background-image: url(../images/img-cronut01.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent;
+    height: 150px;
+    width: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

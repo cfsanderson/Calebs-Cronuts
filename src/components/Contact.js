@@ -31,6 +31,19 @@ class Contact extends Component {
     return (
       <div>
         <h2>Contact Us</h2>
+        <form className='contact'>
+          <p>
+            <label htmlFor='fullName'>Name</label>
+            <input name='fullName' type='text' />
+          </p>
+          <p>
+            <label htmlFor='message'>Message</label>
+            <textarea cols='30' rows='10' />
+          </p>
+          <p>
+            <button type='submit'>Submit</button>
+          </p>
+        </form>
         <div className='bio'>
           <p>{this.state.bio}</p>
           <img className='avatar_url' src={this.state.avatar_url} />

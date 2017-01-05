@@ -1,7 +1,32 @@
 {
+  "locations": [
+    {
+      "slug": "st-pete",
+      "name": "Downtown St. Petersburg",
+      "address": "1st street fix later",
+      "hours": [
+        {"days": "Mon-Fri", "hours": "11AM - 9PM"},
+        {"days": "Sat", "hours": "11AM - 12AM"},
+        {"days": "Sun", "hours": "CLOSED"}
+      ],
+      "mapPlaceId": "ChIJ2ckQoZzhwogR0f0sRp07BJo"
+    },
+    {
+      "slug": "bradenton",
+      "name": "Anna Maria Public Beach",
+      "address": "43rd Street blah blah",
+      "hours": [
+        {"days": "Mon-Fri", "hours": "11AM - 9PM"},
+        {"days": "Sat", "hours": "11AM - 12AM"},
+        {"days": "Sun", "hours": "CLOSED"}
+      ],
+      "mapPlaceId": "ChIJdydtbSAQw4gRbmrOQi"
+    }
+  ],
   "categories": [
     {
       "name": "Coffee",
+      "slug": "coffee",
       "items": [
         {
           "name": "Black - Hot or Iced",
@@ -43,6 +68,7 @@
     },
     {
       "name": "Donuts",
+      "slug": "donuts",
       "items": [
         {
           "name": "Chocolate",
@@ -90,6 +116,7 @@
     },
     {
       "name": "Specials",
+      "slug": "specials",
       "items": [
         {
           "name": "Chocolate",
