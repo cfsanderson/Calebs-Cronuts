@@ -10,10 +10,8 @@ class Layout extends Component {
   render () {
     return (
       <div className='layout'>
-        <h3>Fresh Donuts</h3>
-        <h1>Made-To-Order Donuts</h1>
-        <h3>Your Way</h3>
         <nav>
+          <h1 className='main-logo'>Caleb's Cronuts</h1>
           <ul>
             <li>
               <Link to='/'>Home</Link>
@@ -45,7 +43,7 @@ class Layout extends Component {
               <li><img src='./src/images/logo-wall-street-journal.png' /></li>
             </ul>
           </div>
-          <p>&copy; 2017 The Donut Experiment. Built with &hearts; at The Iron Yard, in St. Petersburg, FL.</p>
+          <p>&copy; 2017 Caleb's Cronuts. Built with &hearts; at The Iron Yard, in St. Petersburg, FL.</p>
         </footer>
       </div>
     )
