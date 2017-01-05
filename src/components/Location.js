@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import data from '../data.json'
 
-const GoogleMapsAPIKey = 'AIzaSyD0JdO0S7poAhOfxiAzJC6RUURRnsf_K6A'
+const GoogleMapsAPIKey = 'AIzaSyDwbatDc7VrHFQ6otlJ-ocwSmbs3hTWFg4'
 
 class Location extends Component {
 
@@ -10,11 +10,11 @@ class Location extends Component {
     return (
       <div>
         <h2>{location.name}</h2>
-        <div className='google-maps' />
+        <div className='google-maps'>
           <iframe width='600' height='450' frameBorder='0' style={{border: 0}}
             src={`https://www.google.com/maps/embed/v1/place?q=place_id:${location.mapPlaceId}&key=${GoogleMapsAPIKey}`} allowFullScreen />
         </div>
-        <p>{location.address}</p>
+        <p>{location.name}</p>
         <table>
           <tbody>
             {location.hours.map((period, j) => {
@@ -23,7 +23,7 @@ class Location extends Component {
                   <th>{period.days}</th>
                   <td>{period.hours}</td>
                 </tr>
-              )
+                )
             })}
           </tbody>
         </table>

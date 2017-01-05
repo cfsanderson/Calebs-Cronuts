@@ -20,10 +20,10 @@
         {"days": "Sat", "hours": "11AM - 12AM"},
         {"days": "Sun", "hours": "CLOSED"}
       ],
-      "mapPlaceId": "ChIJdydtbSAQw4gRbmrOQi"
+      "mapPlaceId": "ChIJEdWsSXEXw4gRpgNdaDgckZs"
     }
   ],
-  "categories": [
+  "menu": [
     {
       "name": "Coffee",
       "slug": "coffee",
