@@ -13,7 +13,7 @@ class MenuItem extends Component {
       <tr>
         <th>{this.props.name}</th>
         <td>{this.props.description}</td>
-        <td>${this.props.price / 100}</td>
+        <td>{this.props.price / 100}</td>
       </tr>
     )
   }

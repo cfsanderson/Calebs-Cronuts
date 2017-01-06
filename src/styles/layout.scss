@@ -1,0 +1,63 @@
+@import 'utility';
+
+.main-logo {
+  background-image: url(../images/logo-calebs-cronuts.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: transparent;
+  height: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
+  // width: 100%;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  max-height: 760px;
+  margin: 1em auto;
+  padding: 1em;
+  flex: 1;
+}
+
+nav {
+  background-color: lighten($color-main-font, 25);
+  width: 100%;
+  align-items: center;
+  padding-bottom: 20px;
+
+  ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    max-width: 530px;
+    margin: auto;
+    font-family: $font-fredoka-one;
+    border: 10px dotted $color-rose;
+    border-left: 0;
+    border-right: 0;
+    background-color: $color-mint-green;
+
+    li {
+      margin: 1em;
+      flex: 1;
+      text-align: center;
+    }
+
+    a {
+      text-decoration: none;
+      color: $color-rose;
+      font-size: 1.5em;
+
+      &:hover {
+        color: darken($color-rose, 30);
+      }
+    }
+  }
+}

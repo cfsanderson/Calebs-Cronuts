@@ -5,8 +5,8 @@ import data from '../data.json'
 class MenuSection extends Component {
 
   static propTypes = {
-    params: React.PropTypes.object.isRequired,
-    name: React.PropTypes.string.isRequired  /* missing from Jason's code */
+    params: React.PropTypes.object.isRequired
+    // name: React.PropTypes.string.isRequired
   }
 
   render () {
