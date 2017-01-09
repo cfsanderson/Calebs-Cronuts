@@ -30,7 +30,7 @@ class Contact extends Component {
   render () {
     return (
       <div>
-        <h2>Contact Us</h2>
+        <h2>Contact</h2>
         <form className='contact'>
           <p>
             <label htmlFor='fullName'>Name</label>

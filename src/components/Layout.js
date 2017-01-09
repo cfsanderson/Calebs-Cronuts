@@ -11,8 +11,8 @@ class Layout extends Component {
     return (
       <div className='layout'>
         <nav>
-          <h1 className='main-logo'>Caleb's Cronuts</h1>
-          <ul>
+          <h1 className='main-logo'><Link to='/'>Caleb's Cronuts</Link></h1>
+          <ul className='navbar'>
             <li>
               <Link to='/'>Home</Link>
             </li>
