@@ -11,16 +11,15 @@ class Layout extends Component {
     return (
       <div className='layout'>
         <nav>
-          <h1 className='main-logo'><Link to='/'>Caleb's Cronuts</Link></h1>
           <ul className='navbar'>
-            <li>
-              <Link to='/'>Home</Link>
-            </li>
             <li>
               <Link to='/menu'>Menu</Link>
             </li>
             <li>
               <Link to='/contact'>Contact</Link>
+            </li>
+            <li className='main-logo'>
+              <Link className='main-logo' to='/'>Home</Link>
             </li>
             <li>
               <Link to='/locations'>Locations</Link>

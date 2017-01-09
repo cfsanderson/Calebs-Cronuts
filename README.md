@@ -1,6 +1,7 @@
 # The Donut Experiment
 
 Things still working on
+[] Navbar restyled with image for Home link but can't make the word "home" transparent.
 [] Home page - keep h1 from breaking when smaller size.
 [] Home page - keep article from falling under footer when less than 510px.
 [] Layout - make the CC logo link to Home page.

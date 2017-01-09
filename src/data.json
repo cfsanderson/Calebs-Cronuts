@@ -13,8 +13,8 @@
     },
     {
       "slug": "bradenton",
-      "name": "Anna Maria Public Beach",
-      "address": "43rd Street blah blah",
+      "name": "Bradenton",
+      "address": "",
       "hours": [
         {"days": "Mon-Fri", "hours": "11AM - 9PM"},
         {"days": "Sat", "hours": "11AM - 12AM"},

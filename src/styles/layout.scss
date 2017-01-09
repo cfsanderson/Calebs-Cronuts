@@ -1,17 +1,5 @@
 @import 'utility';
 
-.main-logo a {
-  background-image: url(../images/logo-calebs-cronuts.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  color: transparent;
-  height: 200px;
-  margin-left: 20px;
-  margin-right: 20px;
-  // width: 100%;
-}
-
 .layout {
   display: flex;
   flex-direction: column;
@@ -48,6 +36,20 @@ nav {
       margin: 1em;
       flex: 1;
       text-align: center;
+
+      &.main-logo {
+        flex: 3;
+        background-image: url(../images/logo-calebs-cronuts.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top center;
+        // color: transparent;
+        height: 150px;
+        min-width: 400px;
+        margin-left: 20px;
+        margin-right: 20px;
+        // width: 100%;
+      }
     }
 
     a {
@@ -58,6 +60,10 @@ nav {
       &:hover {
         color: darken($color-rose, 30);
         font-weight: bold;
+      }
+
+      &.main-logo {
+        color: transparent;
       }
     }
   }
