@@ -1,32 +1,41 @@
 @import 'utility';
 
 .menu-header {
-  display: flex;
-  flex-direction: column;
+  text-align: center;
 }
 
 .categories {
   ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-around;
-    text-align: center;
     padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 530px;
+    margin: auto;
+    font-family: $font-fredoka-one;
+    border: 10px dotted $color-rose;
+    border-left: 0;
+    border-right: 0;
+    background-color: $color-mint-green;
+    text-align: center;
 
     li {
       flex: 1;
       text-align: center;
       background-color: $color-mint-green;
-      font-weight: bold;
-      font-size: 1.5em;
-      padding: 1em;
+      // font-weight: bold;
+      // font-size: 1.5em;
       font-family: $font-fredoka-one;
+      margin: 1em;
 
       a {
         text-decoration: none;
+        color: $color-rose;
+        font-size: 1.5em;
 
-        &.active {
-          
+        &:hover {
+          color: darken($color-rose, 30);
+          font-weight: bold;
         }
       }
     }

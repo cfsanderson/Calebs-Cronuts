@@ -17,7 +17,8 @@ class Menu extends Component {
 
     return (
       <div className='menu-header'>
-        <h2>Our Menu</h2>
+        {/* <h2>Our Menu</h2>
+        <p></p> */}
         {/* <p>Click on one of the categories below to see our current menu.</p> */}
         <section className='categories'>
           <ul>

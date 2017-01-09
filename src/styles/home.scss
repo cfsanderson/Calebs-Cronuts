@@ -1,17 +1,26 @@
 @import 'utility';
 
-.main-logo {
-  Link {
+// .main-logo {
+// }
 
-  }
-}
 .home {
-  padding: 20px;
   margin: auto;
+  display: flex;
+  max-width: 75vw;
+  justify-content: space-around;
+  align-content: center;
+  margin-bottom: 1em;
+
+  section {
+    justify-content: space-around;
+    flex: 1;
+    padding: 1.5em;
+    line-height: 1.5em;
+    // margin-bottom: 1em;
+  }
 
   .cronut01-image {
     float: left;
-    padding: 15px;
     background-image: url(../images/img-cronut01.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -19,7 +28,31 @@
     color: transparent;
     height: 150px;
     width: 150px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+
+  .caleb-image {
+    float: right;
+    background-image: url(../images/cronut-caleb.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent;
+    height: 150px;
+    width: 150px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+
+  @media (max-width: 900px) {
+    display: block;
+    width: auto;
+    margin: 0;
+
+    section {
+      flex: auto;
+      margin-bottom: 0;
+    }
   }
 }
