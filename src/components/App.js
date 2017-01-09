@@ -8,6 +8,7 @@ import MenuSection from './MenuSection'
 import Contact from './Contact'
 import Locations from './Locations'
 import Location from './Location'
+import Orders from './Orders'
 
 class App extends Component {
 
@@ -22,6 +23,7 @@ class App extends Component {
           <Route path='/contact' component={Contact} />
           <Route path='/locations' component={Locations} />
           <Route path='/locations/:slug' component={Location} />
+          <Route path='/orders' component={Orders} />
         </Route>
       </Router>
     )

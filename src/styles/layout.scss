@@ -1,6 +1,6 @@
 @import 'utility';
 
-.main-logo {
+.main-logo a {
   background-image: url(../images/logo-calebs-cronuts.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -36,7 +36,7 @@ nav {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    max-width: 530px;
+    // max-width: 530px;
     margin: auto;
     font-family: $font-fredoka-one;
     border: 10px dotted $color-rose;

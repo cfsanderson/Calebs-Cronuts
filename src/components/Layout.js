@@ -25,6 +25,9 @@ class Layout extends Component {
             <li>
               <Link to='/locations'>Locations</Link>
             </li>
+            <li>
+              <Link to='/orders'>Order Online</Link>
+            </li>
           </ul>
         </nav>
         <main>

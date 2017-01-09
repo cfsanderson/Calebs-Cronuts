@@ -1,0 +1,59 @@
+.cart {
+  background-color: $color-ochre;
+  padding: 0.5em;
+  transform: none;
+
+  h3 {
+    margin-top: 0;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  tr.empty {
+    font-style: italic;
+    text-align: center;
+    opacity: 0.5;
+  }
+
+  td,
+  th {
+    padding: 0.25em;
+
+    &.item {
+      text-align: right;
+    }
+  }
+
+  form {
+    text-align: right;
+    padding-top: 1em;
+
+    // &:hover {
+    //   text-align: left;
+    // }
+  }
+
+  button {
+    position: center;
+    right: -15px;
+    bottom: -10px;
+    background-color: $color-rose;
+    border: none;
+    padding: 0.5em;
+    font-size: 1.1em;
+    color: $color-beige;
+    border-radius: 4px;
+    // text-shadow: 2px 2px 2px $color-beige;
+    // transform: rotate(5deg);
+    transition: all 200ms ease-in-out;
+
+    &:hover {
+      transform: scale(1.03);
+      background-color: darken($color-mint-green, 15);
+      // color: $color-main-font;
+      cursor: pointer;
+    }
+  }
+}
