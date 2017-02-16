@@ -44,6 +44,9 @@ class Contact extends Component {
             <button type='submit'>Submit</button>
           </p>
         </form>
+        <div>
+          <iframe src='https://docs.google.com/forms/d/e/1FAIpQLSfiD2DoCR3KdTz_YicVY648lHQ9RccD0A_OiMS4c_dFrEYTCw/viewform?embedded=true' width='760' height='500' frameBorder='0' marginHeight='0' marginWidth='0'>Loading...</iframe>
+        </div>
         <div className='bio'>
           <p>{this.state.bio}</p>
           <img className='avatar_url' src={this.state.avatar_url} />
