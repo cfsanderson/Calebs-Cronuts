@@ -1,13 +1,13 @@
 # The Donut Experiment
 
 Things still working on
-[] Navbar restyled with image for Home link but can't make the word "home" transparent.
-[] Home page - keep h1 from breaking when smaller size.
-[] Home page - keep article from falling under footer when less than 510px.
-[] Layout - make the CC logo link to Home page.
-[] Menu - properly style menu header
-[] MenuItems - style properly
-[] Contact - style forms properly
+- [] Navbar restyled with image for Home link but can't make the word "home" transparent.
+- [] Home page - keep h1 from breaking when smaller size.
+- [] Home page - keep article from falling under footer when less than 510px.
+- [] Layout - make the CC logo link to Home page.
+- [] Menu - properly style menu header
+- [] MenuItems - style properly
+- [] Contact - style forms properly
 
 This is a restaurant mockup based on [The Donut Experiment's website](http://thedonutexperiment.com/) and my favorite pastry ever, the cronut. The Donut Experiment is a favorite Saturday morning destination for my family so I reimagined it as my Cronut shop (with a nod to the biggest chain donut shop ;).
 
