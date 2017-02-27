@@ -30,7 +30,7 @@ class Contact extends Component {
   render () {
     return (
       <div>
-        <h2>Contact</h2>
+        {/* <h2>Contact</h2>
         <form className='contact'>
           <p>
             <label htmlFor='fullName'>Name</label>
@@ -43,7 +43,7 @@ class Contact extends Component {
           <p>
             <button type='submit'>Submit</button>
           </p>
-        </form>
+        </form> */}
         <div>
           <iframe src='https://docs.google.com/forms/d/e/1FAIpQLSfiD2DoCR3KdTz_YicVY648lHQ9RccD0A_OiMS4c_dFrEYTCw/viewform?embedded=true' width='760' height='500' frameBorder='0' marginHeight='0' marginWidth='0'>Loading...</iframe>
         </div>
