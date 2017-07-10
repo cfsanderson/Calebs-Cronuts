@@ -7,7 +7,7 @@ const NavBar = (props) => {
         <h2>As seen in</h2>
         <div className='footer-logos'>
           <ul>
-            <li><img src='../images/logo-sainsbury-magazine.png' /></li>
+            <li><img src='./src/images/logo-sainsbury-magazine.png' /></li>
             <li><img src='./src/images/logo-sarasota-mag.png' /></li>
             <li><img src='./src/images/logo-sunday-post.png' /></li>
             <li><img src='./src/images/logo-tampa-bay-times.png' /></li>
