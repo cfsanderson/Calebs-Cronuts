@@ -17,7 +17,10 @@ class Home extends Component {
             <p>Caleb the Cronut</p>
           </div>
           <h1>Why Cronuts?</h1>
-          <p>Hi, My name is Caleb and I love cronuts! I am also a Front-End Engineering student at <a href='https://www.theironyard.com/' target='_blank'>The Iron Yard</a> in St. Petersburg, FL. I'm studying web and software development with and emphasis in Javascript and React. This project was built as part of the course requirements. The purpose was to build a mock restaurant website that leverages React to display a menu and location page that are dynamic and responsive. It was a lot of fun to build and I hope you enjoy it. You can check out this and all my projects on <a href='https://github.com/cfsanderson' target='_blank'>my GitHub.</a></p>
+          <p>Hi, My name is Caleb and I love cronuts! I am also a Front-End Engineering student at
+            <a href='https://www.theironyard.com/' target='_blank'>The Iron Yard</a>
+            in St. Petersburg, FL. I'm studying web and software development with and emphasis in Javascript and React. This project was built as part of the course requirements. The purpose was to build a mock restaurant website that leverages React to display a menu and location page that are dynamic and responsive. It was a lot of fun to build and I hope you enjoy it. You can check out this and all my projects on
+            <a href='https://github.com/cfsanderson' target='_blank'>my GitHub.</a></p>
         </section>
       </div>
     )
