@@ -9,7 +9,7 @@ const NavBar = (props) => {
           <ul>
             <li><img src='./src/images/logo-sainsbury-magazine.png' /></li>
             <li><img src='./src/images/logo-sarasota-mag.png' /></li>
-            <li><img src='./sßrc/images/logo-sunday-post.png' /></li>
+            <li><img src='./src/images/logo-sunday-post.png' /></li>
             <li><img src='./src/images/logo-tampa-bay-times.png' /></li>
             <li><img src='./src/images/logo-toronto-star.png' /></li>
             <li><img src='./src/images/logo-visit-florida.png' /></li>
